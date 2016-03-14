@@ -1,0 +1,76 @@
+.navbar {
+    background-color: #02918C;
+    margin-bottom: 0px;
+    border: none !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #CFC91D !important;
+    background-color: #02918C;
+}
+
+h1, h2 {
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.jumbotron {
+    background-image: url('../images/quizzer_bg.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    background-color: #CFC91D;
+    padding: 25px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+ul.choices {
+    margin: 50px 0 50px 0;
+}
+
+#sti-menu h3 {
+    font-size: 12px;
+}
+
+#sti-menu h4 {
+    font-size: 16px;
+}
+
+.choice-block {
+    display: block;
+    padding: 50px;
+    min-height: 220px;
+    overflow: auto;
+}
+
+.choice-block:hover {
+    background-color: #FF0000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.choice-block + .choice-block {
+    border-left: 1px solid #d9dbdb;
+}
+
+.fa0:before {content: "\f1ea";}
+.fa1:before {content: "\f1dc";}
+.fa2:before {content: "\f1e9";}
+.fa3:before {content: "\f1a8";}
+.fa4:before {content: "\f295";}
+
+.footer {
+    margin-bottom: 50px;
+}
